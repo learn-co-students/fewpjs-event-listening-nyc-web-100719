@@ -7,6 +7,8 @@ function addingEventListener() {
 
     //invoking the addListenerEvent on the node that is listening above 
         input.addEventListener('click', function(event) {
-        alert('I was clicked!');
-            });
+            alert("clicked from vs code!")
+            console.log(event.target)
+        })
+
 }
